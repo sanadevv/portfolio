@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;500;700&family=Shrikhand&display=swap");
+
+// variables
+$main-color: #442138;
+$navbar-color: #7a4768;
+$small-screen: 768px;
+// $background-gradient: linear-gradient;
+// mixin
+@mixin respond-to($breakpoint) {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@import "./components/header.scss";
+@import "./components/header.scss";
+@import "./pages/projects.scss";
+@import "./components/footer.scss";
+@import "./pages/home.scss";
+a {
+  text-decoration: none;
+}

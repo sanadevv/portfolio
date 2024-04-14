@@ -1,0 +1,37 @@
+.projects {
+  padding: 20px;
+  background-color: rgb(238 232 232);
+  color: #715470;
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+
+    .project {
+      border: 1px solid #ccc;
+      overflow: hidden;
+      // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border: solid;
+      border-color: #fff;
+      border-radius: 30px;
+      border-width: 3px;
+      box-shadow: 1px 1px 10px 10px #e2e2e74f;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .project-info {
+        padding: 20px;
+        h3 {
+          margin-top: 0;
+        }
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
